@@ -89,17 +89,88 @@ input {
 }
 /*End of Input*/
 
+/*Section Element*/
+section {
+	padding-left: 10%;
+}
+section img {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: -20px;
+}
 
+section div {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
 
+section div p {
+	font-size: 35px;
+	color: rgb(249, 127, 35);
+	font-weight: 200;
+}
 
+section span.sp-orange {
+	font-weight: 600;
+}
 
+section sup {
+	font-size: 15px;
+	font-weight: 500;
+	position: relative;
+	top: -15px;
+}
 
+section div .blue {
+	color: rgb(127, 204, 202);
+}
 
+section div a {
+	height: 55px;
+	width: 200px;
+	color: #fff;
+	font-weight: 200;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 25px;
+	text-align: center;
+	padding-top: 10px;
+	transition: all .3s ease;
+}
 
+section div a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	margin-top: -5px;
+}
 
+a.blue-btn {
+	background-color: rgb(127, 204, 202);
+	transition: all .3s ease;
+}
 
+a.blue-btn:hover {
+	border: 2px solid rgb(127, 204, 202);
+	color: rgb(127, 204, 202);
+}
 
+a.orange-btn {
+	background-color: rgb(249, 127, 35);
+	transition: all .3s ease;
+}
 
+a.orange-btn:hover {
+	border: 2px solid rgb(249, 127, 35);
+	color: rgb(249, 127, 35);
+}
+
+/*End of Section Element*/
 
 
 
