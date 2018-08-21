@@ -1,0 +1,61 @@
+
+/*Nav Bar*/
+nav {
+	height: 100px;
+	width: 100%;
+	background-color: rgba(252, 126, 35);
+	padding-top: 1.7%;
+	position: relative;
+}
+
+nav span.sp-orange {
+	color: #fff;
+	font-size:33px;
+	font-weight: 600;
+}
+
+nav span.sp-juice {
+	color: #fff;
+	font-size:33px;
+	font-weight: 200;
+}
+
+nav sup {
+	color: #fff;
+	position: relative;
+	top: -15px;
+}
+
+nav img {
+	height: 50px;
+	width: 75px;
+	margin-left: 6%;
+}
+
+nav ul {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	padding-right: 4%;
+}
+
+nav ul li {
+	display: inline;
+	color: #fff;
+	font-weight: 200;
+	font-size: 30px;
+	margin: 10px;
+	transition: all .3s ease;
+	cursor: pointer;
+
+}
+
+nav ul li:hover {
+	color: #ffe500;
+	transform: scale(2);
+}
+
+/*End of Navbar*/
+
+
+
