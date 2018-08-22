@@ -37,18 +37,18 @@ nav ul {
 	position: absolute;
 	right: 0px;
 	padding-right: 4%;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 
 nav ul li {
 	display: inline;
 	color: #fff;
 	font-weight: 200;
-	font-size: 30px;
+	font-size: 25px;
 	margin: 10px;
 	transition: all .3s ease;
 	cursor: pointer;
-
+	text-transform: uppercase;
 }
 
 nav ul li:hover {
@@ -113,6 +113,8 @@ section div p {
 	font-size: 35px;
 	color: rgb(249, 127, 35);
 	font-weight: 200;
+	word-spacing: 5px;
+	letter-spacing: 1.5px;
 }
 
 section span.sp-orange {
@@ -172,7 +174,26 @@ a.orange-btn:hover {
 
 /*End of Section Element*/
 
+/*Footer*/
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: rgb(127, 204, 202);
+	text-align: center; 
+}
 
+footer i {
+	font-size: 22px;
+	color: #fff;
+	margin: 20px;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+footer i:hover {
+	color: #ffe500;
+	transform: scale(1.2);
+}
 
 
 
